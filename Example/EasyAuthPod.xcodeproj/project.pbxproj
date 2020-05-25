@@ -536,10 +536,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyAuthPod/EasyAuthPod-Prefix.pch";
 				INFOPLIST_FILE = "EasyAuthPod/EasyAuthPod-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					/Users/anandmahajn/Documents/Static,
-					Library/EasyAuthPod/EasyAuthUniversalLib,
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -556,10 +553,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyAuthPod/EasyAuthPod-Prefix.pch";
 				INFOPLIST_FILE = "EasyAuthPod/EasyAuthPod-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					/Users/anandmahajn/Documents/Static,
-					Library/EasyAuthPod/EasyAuthUniversalLib,
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

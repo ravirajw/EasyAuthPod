@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     s.resources             = "EasyAuthUniversalLib/Resources.bundle"
     s.ios.vendored_library  = "EasyAuthUniversalLib/libEasyAuthLibrary.a"
     s.frameworks            = "Foundation", "UIKit"
-    s.xcconfig              = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/EasyAuthUniversalLib"' }
+    s.xcconfig              = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/EasyAuthPod"' }
     s.requires_arc          = true
     
 end
