@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106BEFCE34D79451EF34CDEB032DD991 /* Pods-EasyAuthPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9EC3F845AD3630A26AD7E490DC8B1 /* Pods-EasyAuthPod_Example-dummy.m */; };
+		172E19F8DD6F8E8066E397EE47CB1D0F /* EasyAuthPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EE7F99BDAF3A8865DDAD9A63B067B1 /* EasyAuthPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224AB232247C427F000CD284 /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224AB22E247C427F000CD284 /* AboutUsViewController.xib */; };
+		224AB233247C427F000CD284 /* libEasyAuthLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224AB22F247C427F000CD284 /* libEasyAuthLibrary.a */; };
+		224AB234247C427F000CD284 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 224AB230247C427F000CD284 /* Resources.bundle */; };
+		224AB235247C427F000CD284 /* EasyAuthLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 224AB231247C427F000CD284 /* EasyAuthLibrary.h */; };
+		48584FF963A7C69481F58D5796F0CA78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		84C0C37EF88BF64A00EAF72CA17A3AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		88E4DA2FFEFD4C98331D4443A65685C1 /* Pods-EasyAuthPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7780509870AC50DFEAE780D4492C8CA /* Pods-EasyAuthPod_Tests-dummy.m */; };
+		9107C4DA1F866B0F5BA824B8D149B72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A2D7B590236DE0C7CE8179AB8E12BD13 /* EasyAuthPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCBE94BE97B531FA500B6F5ED745A6 /* EasyAuthPod-dummy.m */; };
+		AEA7B81468B36A623EE143DF25899B32 /* Pods-EasyAuthPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B239336D5BCE17C5836DA08485227621 /* Pods-EasyAuthPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFCDF57E3C0C6BCE266502D1BE7469A0 /* Pods-EasyAuthPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFE88E07E15AEF4C7C82F25E828DAF4 /* Pods-EasyAuthPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008FD0ECEB68357AB5177BAF916323DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEEFCA0357631D71F2EC21635620881;
+			remoteInfo = "Pods-EasyAuthPod_Example";
+		};
+		81EAF05A56F229E4D1C82C07B3A4A5E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE2AE21B112746D94850008F9BF1490;
+			remoteInfo = EasyAuthPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103D9ACD89E053EECB28E8D8891EF47F /* Pods_EasyAuthPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAuthPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F9EC3F845AD3630A26AD7E490DC8B1 /* Pods-EasyAuthPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyAuthPod_Example-dummy.m"; sourceTree = "<group>"; };
+		146E6F287683049469599265D08E4486 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		21E04FA4950E391D7E7371AAB266A900 /* Pods-EasyAuthPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyAuthPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		224AB22E247C427F000CD284 /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		224AB22F247C427F000CD284 /* libEasyAuthLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEasyAuthLibrary.a; sourceTree = "<group>"; };
+		224AB230247C427F000CD284 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		224AB231247C427F000CD284 /* EasyAuthLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyAuthLibrary.h; sourceTree = "<group>"; };
+		23ADC40BF8A48937FF59A3772FE86967 /* Pods-EasyAuthPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAuthPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2514A40DB83BA4891FD4E27ECF4F6777 /* EasyAuthPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAuthPod-prefix.pch"; sourceTree = "<group>"; };
+		2ABCBE94BE97B531FA500B6F5ED745A6 /* EasyAuthPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyAuthPod-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35F21F68758718EB7C2B3D8AB6E16721 /* EasyAuthPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyAuthPod.modulemap; sourceTree = "<group>"; };
+		3A9F6F188C9C7EB20DA71A37004D2AF2 /* EasyAuthPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyAuthPod-Info.plist"; sourceTree = "<group>"; };
+		4FD459AC9F98D6BA39216DC4555A8CC0 /* Pods-EasyAuthPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyAuthPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		506AA92C71BCD95420454F22975CD762 /* EasyAuthPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EasyAuthPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5DFEEFBE4AF5E53AC0E39E8A596B3D77 /* Pods-EasyAuthPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyAuthPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		60924E109BD849CD663FB23C9D7EF39A /* Pods-EasyAuthPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyAuthPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AAD11EB5D3CB1D7EEBF36E12FEB1EE9 /* Pods-EasyAuthPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyAuthPod_Example-Info.plist"; sourceTree = "<group>"; };
+		6D4787D75C0C8D2A3F5FA7890F4A883B /* EasyAuthPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyAuthPod.debug.xcconfig; sourceTree = "<group>"; };
+		72D0CBB7F96C619F01C1C8EC3B45CA18 /* EasyAuthPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyAuthPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D1EFD5B2422BA3306DBD31E02C2328 /* Pods-EasyAuthPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyAuthPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		7D7498AFE0DE5600A55159D5D1F93B92 /* Pods-EasyAuthPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyAuthPod_Tests.modulemap"; sourceTree = "<group>"; };
+		8BFE88E07E15AEF4C7C82F25E828DAF4 /* Pods-EasyAuthPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyAuthPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		8FC167D397720ADE61A566006F36C0F4 /* EasyAuthPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyAuthPod.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7A702A495741AD7B3EBB584EAF02E64 /* Pods-EasyAuthPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAuthPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C5C9D08AAB5616D24D751A85ED343B /* Pods-EasyAuthPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyAuthPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1EE7F99BDAF3A8865DDAD9A63B067B1 /* EasyAuthPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAuthPod-umbrella.h"; sourceTree = "<group>"; };
+		B239336D5BCE17C5836DA08485227621 /* Pods-EasyAuthPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyAuthPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B7780509870AC50DFEAE780D4492C8CA /* Pods-EasyAuthPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyAuthPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		C9A22D517D215373BF0D259D01A10879 /* Pods-EasyAuthPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAuthPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEBA9C86CC6ED550EFD20C23D3E4FB66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE7E068AECEC30943C13C88EB089833E /* Pods-EasyAuthPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAuthPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA390815A47362FC1699910EAEAD83E2 /* Pods-EasyAuthPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyAuthPod_Example.modulemap"; sourceTree = "<group>"; };
+		ED8C41ECD9FE11524DB9EE0FB33138DA /* Pods_EasyAuthPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAuthPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE2682F41ACAE6881E6FE1083B9B64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9107C4DA1F866B0F5BA824B8D149B72C /* Foundation.framework in Frameworks */,
+				224AB233247C427F000CD284 /* libEasyAuthLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5A43E30BEC915CD39534DA048B40D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C0C37EF88BF64A00EAF72CA17A3AAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629702697AE20EB1D71CB3E3202B071D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48584FF963A7C69481F58D5796F0CA78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224AB22D247C427F000CD284 /* EasyAuthUniversalLib */ = {
+			isa = PBXGroup;
+			children = (
+				224AB22E247C427F000CD284 /* AboutUsViewController.xib */,
+				224AB22F247C427F000CD284 /* libEasyAuthLibrary.a */,
+				224AB230247C427F000CD284 /* Resources.bundle */,
+				224AB231247C427F000CD284 /* EasyAuthLibrary.h */,
+			);
+			path = EasyAuthUniversalLib;
+			sourceTree = "<group>";
+		};
+		26AF2D02394A5C30EE8AAC3689FFDC3B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20B12813C44A0359E564166F21EDCE0 /* Pods-EasyAuthPod_Example */,
+				D88075304B5EC55DEA909496A9C01403 /* Pods-EasyAuthPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E2AA88461624080DF81FB63934E20DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				506AA92C71BCD95420454F22975CD762 /* EasyAuthPod.podspec */,
+				146E6F287683049469599265D08E4486 /* LICENSE */,
+				CEBA9C86CC6ED550EFD20C23D3E4FB66 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5858EF1E7A3AAA6A229207317B7C8219 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				674BA2C86805E8593C59C42E7DCB2678 /* EasyAuthPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5C9D10263C33A9C4DCFA8BEED642960E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35F21F68758718EB7C2B3D8AB6E16721 /* EasyAuthPod.modulemap */,
+				2ABCBE94BE97B531FA500B6F5ED745A6 /* EasyAuthPod-dummy.m */,
+				3A9F6F188C9C7EB20DA71A37004D2AF2 /* EasyAuthPod-Info.plist */,
+				2514A40DB83BA4891FD4E27ECF4F6777 /* EasyAuthPod-prefix.pch */,
+				B1EE7F99BDAF3A8865DDAD9A63B067B1 /* EasyAuthPod-umbrella.h */,
+				6D4787D75C0C8D2A3F5FA7890F4A883B /* EasyAuthPod.debug.xcconfig */,
+				8FC167D397720ADE61A566006F36C0F4 /* EasyAuthPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EasyAuthPod";
+			sourceTree = "<group>";
+		};
+		5F3A29D8A7B02FFC5E8500B100773A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D0CBB7F96C619F01C1C8EC3B45CA18 /* EasyAuthPod.framework */,
+				103D9ACD89E053EECB28E8D8891EF47F /* Pods_EasyAuthPod_Example.framework */,
+				ED8C41ECD9FE11524DB9EE0FB33138DA /* Pods_EasyAuthPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		674BA2C86805E8593C59C42E7DCB2678 /* EasyAuthPod */ = {
+			isa = PBXGroup;
+			children = (
+				224AB22D247C427F000CD284 /* EasyAuthUniversalLib */,
+				3E2AA88461624080DF81FB63934E20DB /* Pod */,
+				5C9D10263C33A9C4DCFA8BEED642960E /* Support Files */,
+			);
+			name = EasyAuthPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A20B12813C44A0359E564166F21EDCE0 /* Pods-EasyAuthPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EA390815A47362FC1699910EAEAD83E2 /* Pods-EasyAuthPod_Example.modulemap */,
+				4FD459AC9F98D6BA39216DC4555A8CC0 /* Pods-EasyAuthPod_Example-acknowledgements.markdown */,
+				5DFEEFBE4AF5E53AC0E39E8A596B3D77 /* Pods-EasyAuthPod_Example-acknowledgements.plist */,
+				11F9EC3F845AD3630A26AD7E490DC8B1 /* Pods-EasyAuthPod_Example-dummy.m */,
+				21E04FA4950E391D7E7371AAB266A900 /* Pods-EasyAuthPod_Example-frameworks.sh */,
+				6AAD11EB5D3CB1D7EEBF36E12FEB1EE9 /* Pods-EasyAuthPod_Example-Info.plist */,
+				8BFE88E07E15AEF4C7C82F25E828DAF4 /* Pods-EasyAuthPod_Example-umbrella.h */,
+				23ADC40BF8A48937FF59A3772FE86967 /* Pods-EasyAuthPod_Example.debug.xcconfig */,
+				C9A22D517D215373BF0D259D01A10879 /* Pods-EasyAuthPod_Example.release.xcconfig */,
+			);
+			name = "Pods-EasyAuthPod_Example";
+			path = "Target Support Files/Pods-EasyAuthPod_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5858EF1E7A3AAA6A229207317B7C8219 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5F3A29D8A7B02FFC5E8500B100773A5F /* Products */,
+				26AF2D02394A5C30EE8AAC3689FFDC3B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D88075304B5EC55DEA909496A9C01403 /* Pods-EasyAuthPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7D7498AFE0DE5600A55159D5D1F93B92 /* Pods-EasyAuthPod_Tests.modulemap */,
+				60924E109BD849CD663FB23C9D7EF39A /* Pods-EasyAuthPod_Tests-acknowledgements.markdown */,
+				B0C5C9D08AAB5616D24D751A85ED343B /* Pods-EasyAuthPod_Tests-acknowledgements.plist */,
+				B7780509870AC50DFEAE780D4492C8CA /* Pods-EasyAuthPod_Tests-dummy.m */,
+				75D1EFD5B2422BA3306DBD31E02C2328 /* Pods-EasyAuthPod_Tests-Info.plist */,
+				B239336D5BCE17C5836DA08485227621 /* Pods-EasyAuthPod_Tests-umbrella.h */,
+				A7A702A495741AD7B3EBB584EAF02E64 /* Pods-EasyAuthPod_Tests.debug.xcconfig */,
+				DE7E068AECEC30943C13C88EB089833E /* Pods-EasyAuthPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-EasyAuthPod_Tests";
+			path = "Target Support Files/Pods-EasyAuthPod_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		064A4A7B5AF79A48521D11977E0877AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA7B81468B36A623EE143DF25899B32 /* Pods-EasyAuthPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1202964074DFBA8EB8AB042547B95426 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224AB235247C427F000CD284 /* EasyAuthLibrary.h in Headers */,
+				172E19F8DD6F8E8066E397EE47CB1D0F /* EasyAuthPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAE6850DB21A0F43C9A7916DAF4A35E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCDF57E3C0C6BCE266502D1BE7469A0 /* Pods-EasyAuthPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FEEFCA0357631D71F2EC21635620881 /* Pods-EasyAuthPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA0A6D004F67D6432F4FADC1982D5F6 /* Build configuration list for PBXNativeTarget "Pods-EasyAuthPod_Example" */;
+			buildPhases = (
+				CDAE6850DB21A0F43C9A7916DAF4A35E /* Headers */,
+				EB9FAACBFF26BAC1F8D35BCC1877C8A0 /* Sources */,
+				629702697AE20EB1D71CB3E3202B071D /* Frameworks */,
+				45BCCA03FE1E932A7FB7E799DA21787F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				729D611FF2041B710B2AF4A0EEBD36EC /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyAuthPod_Example";
+			productName = "Pods-EasyAuthPod_Example";
+			productReference = 103D9ACD89E053EECB28E8D8891EF47F /* Pods_EasyAuthPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB98A47DBFD4C0B8FE90D4F0B834CF5C /* Pods-EasyAuthPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B38517CC1443908AC57DBA85A261E2 /* Build configuration list for PBXNativeTarget "Pods-EasyAuthPod_Tests" */;
+			buildPhases = (
+				064A4A7B5AF79A48521D11977E0877AE /* Headers */,
+				02653809D6DC0471BF4F112B2D918A1B /* Sources */,
+				5C5A43E30BEC915CD39534DA048B40D2 /* Frameworks */,
+				DD67AB843FC07A93C869365C9C23A2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A78406BE85EAC9EE37D7D47C32B4DEE /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyAuthPod_Tests";
+			productName = "Pods-EasyAuthPod_Tests";
+			productReference = ED8C41ECD9FE11524DB9EE0FB33138DA /* Pods_EasyAuthPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADE2AE21B112746D94850008F9BF1490 /* EasyAuthPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA3D61B48EF46DC34AF24C6DB87A09F /* Build configuration list for PBXNativeTarget "EasyAuthPod" */;
+			buildPhases = (
+				1202964074DFBA8EB8AB042547B95426 /* Headers */,
+				D44D07C2E156F85C582F6AB554B5594B /* Sources */,
+				4EE2682F41ACAE6881E6FE1083B9B64C /* Frameworks */,
+				76C7285D7B4BC18A0CE645D76C6EC614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyAuthPod;
+			productName = EasyAuthPod;
+			productReference = 72D0CBB7F96C619F01C1C8EC3B45CA18 /* EasyAuthPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5F3A29D8A7B02FFC5E8500B100773A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE2AE21B112746D94850008F9BF1490 /* EasyAuthPod */,
+				2FEEFCA0357631D71F2EC21635620881 /* Pods-EasyAuthPod_Example */,
+				AB98A47DBFD4C0B8FE90D4F0B834CF5C /* Pods-EasyAuthPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BCCA03FE1E932A7FB7E799DA21787F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C7285D7B4BC18A0CE645D76C6EC614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224AB232247C427F000CD284 /* AboutUsViewController.xib in Resources */,
+				224AB234247C427F000CD284 /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD67AB843FC07A93C869365C9C23A2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02653809D6DC0471BF4F112B2D918A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E4DA2FFEFD4C98331D4443A65685C1 /* Pods-EasyAuthPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44D07C2E156F85C582F6AB554B5594B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D7B590236DE0C7CE8179AB8E12BD13 /* EasyAuthPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9FAACBFF26BAC1F8D35BCC1877C8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106BEFCE34D79451EF34CDEB032DD991 /* Pods-EasyAuthPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		729D611FF2041B710B2AF4A0EEBD36EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyAuthPod;
+			target = ADE2AE21B112746D94850008F9BF1490 /* EasyAuthPod */;
+			targetProxy = 81EAF05A56F229E4D1C82C07B3A4A5E2 /* PBXContainerItemProxy */;
+		};
+		9A78406BE85EAC9EE37D7D47C32B4DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EasyAuthPod_Example";
+			target = 2FEEFCA0357631D71F2EC21635620881 /* Pods-EasyAuthPod_Example */;
+			targetProxy = 008FD0ECEB68357AB5177BAF916323DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E184CF92EC92F763E59CE4270E408B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7E068AECEC30943C13C88EB089833E /* Pods-EasyAuthPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyAuthPod_Tests/Pods-EasyAuthPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyAuthPod_Tests/Pods-EasyAuthPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		87D575E0B321AA727BC5865F808F7421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC167D397720ADE61A566006F36C0F4 /* EasyAuthPod.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyAuthPod/EasyAuthPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyAuthPod/EasyAuthPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyAuthPod/EasyAuthPod.modulemap";
+				PRODUCT_MODULE_NAME = EasyAuthPod;
+				PRODUCT_NAME = EasyAuthPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97CAA9CAD184E2F26DF6399504801260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A22D517D215373BF0D259D01A10879 /* Pods-EasyAuthPod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyAuthPod_Example/Pods-EasyAuthPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyAuthPod_Example/Pods-EasyAuthPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B446F61A6BF8C024339D3FEC9F455BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4787D75C0C8D2A3F5FA7890F4A883B /* EasyAuthPod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyAuthPod/EasyAuthPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyAuthPod/EasyAuthPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyAuthPod/EasyAuthPod.modulemap";
+				PRODUCT_MODULE_NAME = EasyAuthPod;
+				PRODUCT_NAME = EasyAuthPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D95A198BA6AA6FD242AAFAF4967CB9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A702A495741AD7B3EBB584EAF02E64 /* Pods-EasyAuthPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyAuthPod_Tests/Pods-EasyAuthPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyAuthPod_Tests/Pods-EasyAuthPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED45F9CD6D977EF1E0027B1F451153CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ADC40BF8A48937FF59A3772FE86967 /* Pods-EasyAuthPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyAuthPod_Example/Pods-EasyAuthPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyAuthPod_Example/Pods-EasyAuthPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B38517CC1443908AC57DBA85A261E2 /* Build configuration list for PBXNativeTarget "Pods-EasyAuthPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95A198BA6AA6FD242AAFAF4967CB9A5 /* Debug */,
+				2E184CF92EC92F763E59CE4270E408B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA3D61B48EF46DC34AF24C6DB87A09F /* Build configuration list for PBXNativeTarget "EasyAuthPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B446F61A6BF8C024339D3FEC9F455BD7 /* Debug */,
+				87D575E0B321AA727BC5865F808F7421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA0A6D004F67D6432F4FADC1982D5F6 /* Build configuration list for PBXNativeTarget "Pods-EasyAuthPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED45F9CD6D977EF1E0027B1F451153CF /* Debug */,
+				97CAA9CAD184E2F26DF6399504801260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

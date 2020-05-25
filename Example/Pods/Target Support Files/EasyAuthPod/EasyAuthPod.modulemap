@@ -1,0 +1,6 @@
+framework module EasyAuthPod {
+  umbrella header "EasyAuthPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "EasyAuthPod",
+  "version": "0.1.0",
+  "summary": "A short description of EasyAuthPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/w.raviraj@yahoo.com/EasyAuthPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "w.raviraj@yahoo.com": "raviraj@sphinx-solution.com"
+  },
+  "source": {
+    "git": "https://github.com/w.raviraj@yahoo.com/EasyAuthPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EasyAuthPod/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - EasyAuthPod (0.1.0)
+
+DEPENDENCIES:
+  - EasyAuthPod (from `../`)
+
+EXTERNAL SOURCES:
+  EasyAuthPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyAuthPod: d0a0519eabe5174b4964554753f685d44b218ee2
+
+PODFILE CHECKSUM: e5984ad0c7cd3a474736661cd3b85841f53b0571
+
+COCOAPODS: 1.9.2
