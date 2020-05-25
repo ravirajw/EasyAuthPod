@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		106BEFCE34D79451EF34CDEB032DD991 /* Pods-EasyAuthPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9EC3F845AD3630A26AD7E490DC8B1 /* Pods-EasyAuthPod_Example-dummy.m */; };
 		172E19F8DD6F8E8066E397EE47CB1D0F /* EasyAuthPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EE7F99BDAF3A8865DDAD9A63B067B1 /* EasyAuthPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		224AB232247C427F000CD284 /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224AB22E247C427F000CD284 /* AboutUsViewController.xib */; };
-		224AB233247C427F000CD284 /* libEasyAuthLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224AB22F247C427F000CD284 /* libEasyAuthLibrary.a */; };
-		224AB234247C427F000CD284 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 224AB230247C427F000CD284 /* Resources.bundle */; };
-		224AB235247C427F000CD284 /* EasyAuthLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 224AB231247C427F000CD284 /* EasyAuthLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22D7A5BF247C50700036D290 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22D7A5BB247C50700036D290 /* Resources.bundle */; };
+		22D7A5C0247C50700036D290 /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D7A5BC247C50700036D290 /* AboutUsViewController.xib */; };
+		22D7A5C1247C50700036D290 /* libEasyAuthLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D7A5BD247C50700036D290 /* libEasyAuthLibrary.a */; };
+		22D7A5C2247C50700036D290 /* EasyAuthLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D7A5BE247C50700036D290 /* EasyAuthLibrary.h */; };
 		48584FF963A7C69481F58D5796F0CA78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		84C0C37EF88BF64A00EAF72CA17A3AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		88E4DA2FFEFD4C98331D4443A65685C1 /* Pods-EasyAuthPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7780509870AC50DFEAE780D4492C8CA /* Pods-EasyAuthPod_Tests-dummy.m */; };
@@ -44,10 +44,10 @@
 		11F9EC3F845AD3630A26AD7E490DC8B1 /* Pods-EasyAuthPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyAuthPod_Example-dummy.m"; sourceTree = "<group>"; };
 		146E6F287683049469599265D08E4486 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		21E04FA4950E391D7E7371AAB266A900 /* Pods-EasyAuthPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyAuthPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		224AB22E247C427F000CD284 /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
-		224AB22F247C427F000CD284 /* libEasyAuthLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEasyAuthLibrary.a; sourceTree = "<group>"; };
-		224AB230247C427F000CD284 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
-		224AB231247C427F000CD284 /* EasyAuthLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyAuthLibrary.h; sourceTree = "<group>"; };
+		22D7A5BB247C50700036D290 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resources.bundle; path = EasyAuthPod/Resources.bundle; sourceTree = "<group>"; };
+		22D7A5BC247C50700036D290 /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutUsViewController.xib; path = EasyAuthPod/AboutUsViewController.xib; sourceTree = "<group>"; };
+		22D7A5BD247C50700036D290 /* libEasyAuthLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEasyAuthLibrary.a; path = EasyAuthPod/libEasyAuthLibrary.a; sourceTree = "<group>"; };
+		22D7A5BE247C50700036D290 /* EasyAuthLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EasyAuthLibrary.h; path = EasyAuthPod/EasyAuthLibrary.h; sourceTree = "<group>"; };
 		23ADC40BF8A48937FF59A3772FE86967 /* Pods-EasyAuthPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAuthPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2514A40DB83BA4891FD4E27ECF4F6777 /* EasyAuthPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAuthPod-prefix.pch"; sourceTree = "<group>"; };
 		2ABCBE94BE97B531FA500B6F5ED745A6 /* EasyAuthPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyAuthPod-dummy.m"; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9107C4DA1F866B0F5BA824B8D149B72C /* Foundation.framework in Frameworks */,
-				224AB233247C427F000CD284 /* libEasyAuthLibrary.a in Frameworks */,
+				22D7A5C1247C50700036D290 /* libEasyAuthLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,17 +107,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		224AB22D247C427F000CD284 /* EasyAuthUniversalLib */ = {
-			isa = PBXGroup;
-			children = (
-				224AB22E247C427F000CD284 /* AboutUsViewController.xib */,
-				224AB22F247C427F000CD284 /* libEasyAuthLibrary.a */,
-				224AB230247C427F000CD284 /* Resources.bundle */,
-				224AB231247C427F000CD284 /* EasyAuthLibrary.h */,
-			);
-			path = EasyAuthUniversalLib;
-			sourceTree = "<group>";
-		};
 		26AF2D02394A5C30EE8AAC3689FFDC3B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +162,10 @@
 		674BA2C86805E8593C59C42E7DCB2678 /* EasyAuthPod */ = {
 			isa = PBXGroup;
 			children = (
-				224AB22D247C427F000CD284 /* EasyAuthUniversalLib */,
+				22D7A5BC247C50700036D290 /* AboutUsViewController.xib */,
+				22D7A5BE247C50700036D290 /* EasyAuthLibrary.h */,
+				22D7A5BD247C50700036D290 /* libEasyAuthLibrary.a */,
+				22D7A5BB247C50700036D290 /* Resources.bundle */,
 				3E2AA88461624080DF81FB63934E20DB /* Pod */,
 				5C9D10263C33A9C4DCFA8BEED642960E /* Support Files */,
 			);
@@ -256,7 +248,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224AB235247C427F000CD284 /* EasyAuthLibrary.h in Headers */,
+				22D7A5C2247C50700036D290 /* EasyAuthLibrary.h in Headers */,
 				172E19F8DD6F8E8066E397EE47CB1D0F /* EasyAuthPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,8 +361,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224AB232247C427F000CD284 /* AboutUsViewController.xib in Resources */,
-				224AB234247C427F000CD284 /* Resources.bundle in Resources */,
+				22D7A5C0247C50700036D290 /* AboutUsViewController.xib in Resources */,
+				22D7A5BF247C50700036D290 /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

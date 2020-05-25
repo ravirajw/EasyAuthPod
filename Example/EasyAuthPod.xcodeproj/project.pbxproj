@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		224AB237247C469A000CD284 /* libEasyAuthLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224AB236247C469A000CD284 /* libEasyAuthLibrary.a */; };
 		224AB23A247C46C8000CD284 /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224AB238247C46C7000CD284 /* AboutUsViewController.xib */; };
 		224AB23B247C46C8000CD284 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 224AB239247C46C8000CD284 /* Resources.bundle */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -41,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		06B1E62A7C41B2EC89E58CD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		224AB236247C469A000CD284 /* libEasyAuthLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEasyAuthLibrary.a; path = ../EasyAuthUniversalLib/libEasyAuthLibrary.a; sourceTree = "<group>"; };
 		224AB238247C46C7000CD284 /* AboutUsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
 		224AB239247C46C8000CD284 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
 		4692CEBEAA5D660B0F7B71DB /* Pods_EasyAuthPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAuthPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224AB237247C469A000CD284 /* libEasyAuthLibrary.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -139,7 +136,6 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				224AB236247C469A000CD284 /* libEasyAuthLibrary.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
