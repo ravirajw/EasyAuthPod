@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224AB237247C469A000CD284 /* libEasyAuthLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224AB236247C469A000CD284 /* libEasyAuthLibrary.a */; };
+		224AB23A247C46C8000CD284 /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224AB238247C46C7000CD284 /* AboutUsViewController.xib */; };
+		224AB23B247C46C8000CD284 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 224AB239247C46C8000CD284 /* Resources.bundle */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +41,9 @@
 
 /* Begin PBXFileReference section */
 		06B1E62A7C41B2EC89E58CD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		224AB236247C469A000CD284 /* libEasyAuthLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEasyAuthLibrary.a; path = ../EasyAuthUniversalLib/libEasyAuthLibrary.a; sourceTree = "<group>"; };
+		224AB238247C46C7000CD284 /* AboutUsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		224AB239247C46C8000CD284 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
 		4692CEBEAA5D660B0F7B71DB /* Pods_EasyAuthPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAuthPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CED84AA1B9ADFE158659FA /* EasyAuthPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyAuthPod.podspec; path = ../EasyAuthPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D73731CC070C4E778AADB92 /* Pods-EasyAuthPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAuthPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-EasyAuthPod_Tests/Pods-EasyAuthPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224AB237247C469A000CD284 /* libEasyAuthLibrary.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -109,6 +116,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				224AB238247C46C7000CD284 /* AboutUsViewController.xib */,
+				224AB239247C46C8000CD284 /* Resources.bundle */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for EasyAuthPod */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -130,6 +139,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				224AB236247C469A000CD284 /* libEasyAuthLibrary.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -276,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224AB23A247C46C8000CD284 /* AboutUsViewController.xib in Resources */,
+				224AB23B247C46C8000CD284 /* Resources.bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -524,6 +536,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyAuthPod/EasyAuthPod-Prefix.pch";
 				INFOPLIST_FILE = "EasyAuthPod/EasyAuthPod-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/anandmahajn/Documents/Static,
+					Library/EasyAuthPod/EasyAuthUniversalLib,
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,6 +556,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyAuthPod/EasyAuthPod-Prefix.pch";
 				INFOPLIST_FILE = "EasyAuthPod/EasyAuthPod-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/anandmahajn/Documents/Static,
+					Library/EasyAuthPod/EasyAuthUniversalLib,
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

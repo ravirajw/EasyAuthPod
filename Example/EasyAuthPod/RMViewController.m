@@ -7,8 +7,11 @@
 //
 
 #import "RMViewController.h"
+#import <EasyAuthLibrary.h>
 
 @interface RMViewController ()
+
+@property EasyAuthLibrary *auth;
 
 @end
 
@@ -18,12 +21,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.auth = [EasyAuthLibrary new];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)registrationAction:(id)sender {
+    [self.auth presentRegistrationInView:self];
+}
+
+- (IBAction)aboutUsActions:(id)sender {
+    [self.auth presentAboutUsInView:self];
 }
 
 @end
