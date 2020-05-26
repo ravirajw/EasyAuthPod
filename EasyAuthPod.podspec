@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
     s.platform              = :ios, "12.0"
     s.ios.deployment_target = '12.0'
     s.source                = { :git => "https://github.com/ravirajw/EasyAuthPod.git", :tag => s.version.to_s }
-    s.source_files          = "EasyAuthUniversalLib/*.{h,m,xib}"
-    s.preserve_paths        = "EasyAuthUniversalLib/*"
-    s.resources             = "EasyAuthUniversalLib/Resources.bundle"
-    s.ios.vendored_library  = "EasyAuthUniversalLib/libEasyAuthLibrary.a"
+    s.source_files          = "EasyAuthPod/*.{h,m,xib}"
+    s.preserve_paths        = "EasyAuthPod/*"
+    s.resources             = "EasyAuthPod/Resources.bundle"
+    s.ios.vendored_library  = "EasyAuthPod/libEasyAuthLibrary.a"
     s.frameworks            = "Foundation", "UIKit"
     s.xcconfig              = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/EasyAuthPod"' }
     s.requires_arc          = true
