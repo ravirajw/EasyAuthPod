@@ -22,7 +22,7 @@ pod 'EasyAuthPod'
 
 ## Author
 
-w.raviraj@yahoo.com, raviraj@sphinx-solution.com
+Raviraj Wadhwa, w.raviraj@yahoo.com
 
 ## License
 
