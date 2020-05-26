@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
     
     s.name                  = "EasyAuthPod"
-    s.version               = "1.0.2"
+    s.version               = "1.0.3"
     s.summary               = "EasyAuth offers easy login, success and about us screen."
     s.description           = <<-DESC
                               EasyAuth offers easy login, success and about us screen. EasyAuth offers easy login, success and about us screen.

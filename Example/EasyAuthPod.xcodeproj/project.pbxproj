@@ -253,6 +253,9 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "w.raviraj@yahoo.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = H75CA549G7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -529,6 +532,7 @@
 			baseConfigurationReference = C0275A51F6D3A0CB5C4605AC /* Pods-EasyAuthPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H75CA549G7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyAuthPod/EasyAuthPod-Prefix.pch";
 				INFOPLIST_FILE = "EasyAuthPod/EasyAuthPod-Info.plist";
@@ -546,6 +550,7 @@
 			baseConfigurationReference = 97A503EF7A5E8555C815EA97 /* Pods-EasyAuthPod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H75CA549G7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyAuthPod/EasyAuthPod-Prefix.pch";
 				INFOPLIST_FILE = "EasyAuthPod/EasyAuthPod-Info.plist";
